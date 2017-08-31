@@ -1,0 +1,36 @@
+﻿        public IEnumerable<StoGrnStock> getByAllContains()
+        {
+            try
+            {
+                var abc = from StoGrnStock in _context.StoGrnStocks
+                          join StoGrnBoxDetail in _context.StoGrnBoxDetails on StoGrnStock.GRNStokeNo_I equals StoGrnBoxDetail.GRNStokeNo_I
+                          join stockStatus in _context.StoGRNBoxStatuses on StoGrnBoxDetail.StoGRNBoxDetailId equals stockStatus.StoGRNBoxDetailId
+                          select new { StoGrnStock, StoGrnStock.StoGrnBoxDetails };
+
+                var list = abc.ToList();
+                List<StoGrnStock> stoGrnStockList = new List<StoGrnStock>();
+                foreach (var item in list)
+                {
+                    StoGrnStock myItem = new StoGrnStock();
+                    myItem = item.StoGrnStock;
+                    myItem.StoGrnBoxDetails = item.StoGrnBoxDetails;
+                    stoGrnStockList.Add(myItem);
+                }
+
+                return stoGrnStockList;
+                //return this._context.StoGrnStocks.Include("StoItemDesc")
+                //                                 .Include("StoGrnHead")
+                //                                 .Include("StoGrnBoxDetails")
+                //                                 .Include("StoGrnHead.RefSupplier")
+                //                                 .Include("StoGrnBoxDetails.StoGRNBoxStatuses")
+                //                                 .GroupJoin(_context.StoGrnBoxDetails, x=>x.GRNStokeNo_I, y=>y.GRNStokeNo_I, (x,y) =>
+                //                                     { x.StoGrnBoxDetails.f });
+
+            }
+            catch (Exception ex)
+            {
+                this.LogError("Error retrieving data");
+                return null;
+            }
+
+        }

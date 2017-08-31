@@ -1,0 +1,6 @@
+﻿1. Copy your production web application folder
+2. Paste it as a 
+2. Just ad the <add key="EnableTesting" value="true"/> to the config file
+
+You are ready to use the feature, this will basically allow you to test/
+use the production database to test user scenarios without updating or modifying the actual data in it.

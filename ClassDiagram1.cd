@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nido.Common.BackEnd.BaseObject" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAAAhDAAEAAA=</HashCode>
+      <FileName>BackEnd\BaseObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.BackEnd.BaseObjectConext" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BackEnd\BaseObjectConext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.BackEnd.DataRepository&lt;TContext, Entity&gt;" Collapsed="true">
+    <Position X="3.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYAQAACAGAABAAAAgEAAACAAIFYBAAAAgAIAyAAAgA=</HashCode>
+      <FileName>BackEnd\GenericRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.BackEnd.GenericResponse" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAIAAQAAAAA=</HashCode>
+      <FileName>BackEnd\GenericResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.BackEnd.GenericResponse<TResult&gt;" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BackEnd\GenericResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.BackEnd.HandlerBase&lt;E, C&gt;" Collapsed="true">
+    <Position X="3.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAABASAABgAAIDAACACAgQIAcJIAAAAogAIAQAAgA=</HashCode>
+      <FileName>BackEnd\HandlerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.BackEnd.SearchItem" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAgAA=</HashCode>
+      <FileName>BackEnd\SearchItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.BackEnd.SearchRequest" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BackEnd\SearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.BackEnd.SearchResult&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BackEnd\SearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdminPortal.Common.ConfigSettings" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ConfigSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdminPortal.Common.PortalCookie" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Cookie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.EnumValueDto" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAgAAAAAAA=</HashCode>
+      <FileName>EnumToKeyValuePairList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.LoggerBase" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAACAAAAAAAAIAQJAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>LoggerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.SessionHelper" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SessionHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Exceptions.ExceptionBase" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAEAAAAAAAQAAABAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ExceptionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Exceptions.ExceptionCritical" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ExceptionCritical.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Exceptions.ExceptionDataError" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ExceptionDataError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Exceptions.ExceptionNoneRepeatable" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ExceptionNoneRepeatable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Exceptions.ExceptionRepeatable" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ExceptionRepeatable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.FrontEnd.BaseCombo&lt;E, C&gt;" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAACAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrontEnd\ComboBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.FrontEnd.PageBase&lt;T&gt;" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAgQAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>FrontEnd\PageBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.FrontEnd.BaseUserControl&lt;T&gt;" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAgQAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>FrontEnd\UserControlBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Properties.Settings" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Utilities.Alerting.Email.MailClientBase" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\Alerting\Email\MailClientBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Utilities.Alerting.Email.MAlertSMessage" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\Alerting\Email\MAlertSMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Utilities.Alerting.Email.MAlertSNetEmailClient" Collapsed="true">
+    <Position X="3" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\Alerting\Email\MAlertSNetEmailClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Utilities.Alerting.Email.MAlertSWebEmailClient" Collapsed="true">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\Alerting\Email\MAlertSWebEmailClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Utilities.Alerting.Sms.MAlertSSmsClient" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAQAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\Alerting\Sms\MAlertSSmsClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Utilities.Alerting.Sms.SmsClientBase" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\Alerting\Sms\SmsClientBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nido.Common.Utilities.Alerting.Sms.SmsMessage" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABAAAAAAAAACAAAAAAAAAAAAAAQAAQCA=</HashCode>
+      <FileName>Utilities\Alerting\Sms\SmsMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KellermanSoftware.CompareNetObjects.CompareObjects" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQwSyd2sABiBGUDRIaQBAIAKwEiHokgCgChACEGABgg=</HashCode>
+      <FileName>Utilities\Comparer\CompareObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KellermanSoftware.CompareNetObjects.Difference" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAEQAEAAAAAAAAAAAAAEAAABAAAABIAAA=</HashCode>
+      <FileName>Utilities\Comparer\Difference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="KellermanSoftware.CompareNetObjects.ICompareObjects" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgMGkAAABEUAAACAAAAAAgACEIAAAAChACAGAAAg=</HashCode>
+      <FileName>Utilities\Comparer\ICompareObjects.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Nido.Common.BackEnd.Compareres" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>BackEnd\SearchItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nido.Common.FrontEnd.ControlModes" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAABAAACAAAAAAAAAAA=</HashCode>
+      <FileName>FrontEnd\UserControlBase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
